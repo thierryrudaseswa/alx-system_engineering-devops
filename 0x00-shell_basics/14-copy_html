@@ -1,0 +1,2 @@
+#!/bin/bash
+cwd=$(pwd);parent=$(dirname "$cwd");for file in *.html;if [ ! -e "$parent/$file" ] || [ "$cwd/$file" -nt "$parent/$file" ]; then cp "$file" "$parent";echo "Copied $file to $parent"; fi
