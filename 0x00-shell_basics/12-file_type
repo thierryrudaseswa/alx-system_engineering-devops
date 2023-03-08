@@ -1,0 +1,1 @@
+#!/bin/bashcd /tmp  ls iamafile  file iamafile
